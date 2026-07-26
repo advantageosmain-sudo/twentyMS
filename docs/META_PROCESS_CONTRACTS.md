@@ -2,7 +2,7 @@
 
 Status: DRAFT; activation: explicit/manual
 
-This inventory is backed by the canonical [Advantage.OS convert-repeatable-process skill](https://github.com/advantageosmain-sudo/Advantage.OS/blob/main/skills/convert-repeatable-process/SKILL.md). That skill is the only converter of record for process-to-Skill, process-to-Agent, process-to-SOP, and process-to-Checklist work.
+This inventory is backed by the canonical [Advantage.OS convert-repeatable-process skill](https://github.com/advantageosmain-sudo/Advantage.OS/blob/d9519411284a1d109023d9c99df6b540c4c60582/skills/convert-repeatable-process/SKILL.md). That skill is the only converter of record for process-to-Skill, process-to-Agent, process-to-SOP, and process-to-Checklist work.
 
 ## Invocation contract
 
