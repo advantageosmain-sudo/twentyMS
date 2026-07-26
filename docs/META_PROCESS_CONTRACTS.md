@@ -1,6 +1,6 @@
 # Reusable Meta-Process Contracts
 
-Status: active; activation: explicit/manual
+Status: DRAFT; activation: explicit/manual
 
 This inventory is backed by the canonical [Advantage.OS convert-repeatable-process skill](https://github.com/advantageosmain-sudo/Advantage.OS/blob/main/skills/convert-repeatable-process/SKILL.md). That skill is the only converter of record for process-to-Skill, process-to-Agent, process-to-SOP, and process-to-Checklist work.
 
@@ -37,7 +37,7 @@ A package must contain `process_id`, `version`, `status`, `source_sha256`, `clas
 - Return `BLOCKED_INPUT` for missing or contradictory behavior, permissions, evidence, approvals, or done criteria.
 - Fail closed for missing evidence, failed QA, changed hashes, duplicate execution, or unverified provider results.
 - Preserve partial work as a draft; external actions remain default-deny.
-- Never publish, deploy, spend, send messages, change secrets, delete data, merge, or mutate customer/runtime data during conversion.
+- Never publish, deploy, spend, send messages, change secrets, delete data, perform destructive cleanup, merge, or mutate customer/runtime data during conversion.
  
 ## Asset destination
 
