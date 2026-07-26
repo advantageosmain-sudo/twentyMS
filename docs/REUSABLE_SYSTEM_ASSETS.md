@@ -6,13 +6,15 @@ This repository uses the standard reusable-system asset model so repeated work b
 
 ## Asset Types
 
-- **Skills**: deterministic tasks with clear inputs, outputs, validation, and failure behavior.
+- **Skills**: adaptable job-to-be-done workflows with clear triggers, inputs, outputs, validation, and failure behavior.
 - **Agents**: ongoing responsibilities with ownership, boundaries, cadence, and escalation paths.
 - **Checklists**: repeatable pass/fail verification gates with evidence and negative findings.
 - **SOPs**: complete start-to-finish workflows with prerequisites, procedure, validation, archive, and recovery.
 - **Meta Processes**: repository-improvement workflows that detect repeatable work and convert it into Skills, Agents, Checklists, SOPs, schemas, tests, rules, or safe automation.
 
-## Required Meta Processes
+## Meta Process Contracts (explicit activation)
+
+See [META_PROCESS_CONTRACTS.md](META_PROCESS_CONTRACTS.md) for the invocation contract, process registry, validation, failure behavior, and negative-finding requirements. These processes are available only through explicit activation; the list below is an inventory, not an autonomous command.
 
 - Process-to-Skill converter
 - Process-to-Agent converter
