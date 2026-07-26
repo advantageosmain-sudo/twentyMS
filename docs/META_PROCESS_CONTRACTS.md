@@ -28,7 +28,7 @@ Do not add wrapper fields to the schema-validated request. Keep repository scope
 
 ## Contracted package output
 
-A package must contain `process_id`, `version`, `status`, `source_sha256`, `classification`, `assets`, `missing_inputs`, `risks`, `validation`, and `approval`. Each asset must declare `kind`, `path`, `purpose`, `inputs`, `outputs`, `permissions`, `failure_behavior`, `quality_checks`, and `tests`.
+A package must contain `process_id`, `version`, `status`, `source_sha256`, `classification`, `assets`, `missing_inputs`, `risks`, `validation`, and `approval`. Each asset must declare `kind`, `path`, `purpose`, `inputs`, `outputs`, `permissions`, `failure_behavior`, `quality_checks`, and `tests`. The review record must also include `protected_actions_intentionally_not_taken`.
 
 ## Validation and failure behavior
 
